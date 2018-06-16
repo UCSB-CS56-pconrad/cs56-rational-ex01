@@ -7,3 +7,22 @@ This repository is part of a [series of Java tutorials for a Rational class](htt
 
 # Quick start
 
+Once you clone this repo, these commands show how to compile and run the code inside.
+
+```
+-bash-4.3$ ls
+Main.java  Rational.java  README.md
+-bash-4.3$ javac Main.java
+-bash-4.3$ ls
+Main.class  Main.java  Rational.class  Rational.java  README.md
+-bash-4.3$ javac Rational.java
+-bash-4.3$ ls
+Main.class  Main.java  Rational.class  Rational.java  README.md
+-bash-4.3$ java Main
+Usage: java Main int denom
+  int and denom should be integers; denom may not be zero.
+-bash-4.3$ java Main 3 4
+r1 = Rational@2a139a55
+r2 = Rational@15db9742
+-bash-4.3$
+```
